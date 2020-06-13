@@ -4,7 +4,51 @@
 *.iml
 *.ipr
 
+### VSCode ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/*
+
+### Other IDEs ###
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
 ### Java ###
 target/
 !**/src/main/**
 !**/src/test/**
+
+### Javascript | Typescript ###
+
+# compiled output
+dist/
+tmp/
+out-tsc/
+# Only exists if Bazel was run
+bazel-out/
+
+# dependencies
+node/
+node_modules/
+
+# profiling files
+chrome-profiler-events*.json
+speed-measure-plugin*.json
+
+# misc
+.sass-cache/
+connect.lock/
+coverage/
+typings/
+*.log
+
+### System Files ###
+.DS_Store
+Thumbs.db
